@@ -1,0 +1,978 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - PocketCollider
+    - RevolutionGames.Game.BallCollisionHandler
+    - RevolutionGames.Game.BoardManager
+    - RevolutionGames.Game.CueBallManager
+    - RevolutionGames.Game.CueStickManager
+    - RevolutionGames.Game.GameManager
+    - RevolutionGames.Game.GameRules
+    - RevolutionGames.Game.PocketInfo
+    - RevolutionGames.Hud.CanvasInputPositionHandler
+    - RevolutionGames.Hud.CueBallCollisionHandler
+    - RevolutionGames.Hud.CueSpinSpot
+    - RevolutionGames.Hud.ForceSlider
+    - RevolutionGames.Hud.HudManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.PhysicsRaycaster
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/Final/GameplayScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1446}
+    - Class: 114
+      Script: {instanceID: 1448}
+    - Class: 114
+      Script: {instanceID: 1450}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 2390}
+    - Class: 114
+      Script: {instanceID: 2572}
+    - Class: 114
+      Script: {instanceID: 2660}
+    - Class: 114
+      Script: {instanceID: 3518}
+    - Class: 114
+      Script: {instanceID: 3578}
+    - Class: 114
+      Script: {instanceID: 3640}
+    - Class: 114
+      Script: {instanceID: 3652}
+    - Class: 114
+      Script: {instanceID: 3730}
+    - Class: 114
+      Script: {instanceID: 4164}
+    - Class: 114
+      Script: {instanceID: 4682}
+    - Class: 114
+      Script: {instanceID: 5080}
+    - Class: 114
+      Script: {instanceID: 5158}
+    - Class: 114
+      Script: {instanceID: 5244}
+    - Class: 114
+      Script: {instanceID: 5560}
+    - Class: 114
+      Script: {instanceID: 5586}
+    - Class: 114
+      Script: {instanceID: 6188}
+    - Class: 114
+      Script: {instanceID: 6662}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 7172d794430557cbc3b7c5c0af07c2f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: LeaderBoardScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PocketCollider
+  - hash:
+      serializedVersion: 2
+      Hash: b7155d6a6f0575a9c4a15d6b724dca4e
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.ServerSentEvents
+    className: SimpleSample
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6c5adccd80aa57eb710cb8e01caf3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RespawnBall
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 171086040037177ade4db8d38a35f37e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShopPrefabs
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CueBall
+  - hash:
+      serializedVersion: 2
+      Hash: eefb6c91d0c87fd3f7234accb7e83dd2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: SpinWheelScreen
+  - hash:
+      serializedVersion: 2
+      Hash: fadb0c0f004316ca6f9c82bd19775b88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: ProfileScreen
+  - hash:
+      serializedVersion: 2
+      Hash: c1202e00118b59a1e1e73beb7ae25941
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: CueStick
+  - hash:
+      serializedVersion: 2
+      Hash: 2f8546a2b20e109cd99ee1a5d2839769
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: ProfileSummaryScreen
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c0131a1dc7ee2891fcc744b9519986f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GiftsScreen
+  - hash:
+      serializedVersion: 2
+      Hash: ba55cd5cec5e0623485f45f6bf761ba1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ForceUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 81cc1fec61e0f8961fda32dfd92a21ea
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: RedirectSample
+  - hash:
+      serializedVersion: 2
+      Hash: bfd762a086003d5cb34974098ec87a63
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.HTTP
+    className: StreamingSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: fec9cf46b62044804f0b6f7b774e1a5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Game
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: bfd762a086003d5cb34974098ec87a63
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.HTTP
+    className: ResumableStreamingSample
+  - hash:
+      serializedVersion: 2
+      Hash: 83fe16fb4a2dfaf6730366876b13adcc
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Helpers.SelectorUI
+    className: ExampleInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: eeada4f3f879474a79ee0417aab9f61c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: ScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 7999f116507473a9660c7e2a5595a39c
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Helpers.Components
+    className: Cookies
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 7999f116507473a9660c7e2a5595a39c
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Helpers.Components
+    className: Cache
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3472c66a257dc296867faf2cd9eae35f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: Play1On1Screen
+  - hash:
+      serializedVersion: 2
+      Hash: 77727a044a5622b5763f080c6778f663
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: DirectCueStick
+  - hash:
+      serializedVersion: 2
+      Hash: 1cae24add76340916448febdd1490b46
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: SocketIOChatSample
+  - hash:
+      serializedVersion: 2
+      Hash: 17ca056f86c1e0614b050a8d5dff25bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScratchScreen
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cd27a4c8603d188f3acf9f0ac0167373
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: HomeScreen
+  - hash:
+      serializedVersion: 2
+      Hash: af0537dabf7072720b1497b88b975216
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Helpers.SelectorUI
+    className: Category
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 8e14f228060280687b845cd2173188c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Hud
+    className: ForceSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 11ffe875dfebfb4397d8f04122bd1847
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Hud
+    className: CueBallCollisionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: aeeddae6547185ac3e9d58b857132031
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Game
+    className: CueStickManager
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 7a0cb15f97685ece1750db7d47eecbdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Hud
+    className: HudManager
+  - hash:
+      serializedVersion: 2
+      Hash: 15ae11b5178084c3a2a80e4cc0742ddd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: PlayLocalScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonScript
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0c09138edd1baadee370dc44bfd45d87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: SettingsScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 62e040979f1bcc5cfdb183bf34b809bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Game
+    className: GameRules
+  - hash:
+      serializedVersion: 2
+      Hash: 2223aaf181c6ef172c45a13f617ee23f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SurpriseBoxScreen
+  - hash:
+      serializedVersion: 2
+      Hash: c84b151cc8282d000b0355fa9f372c78
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: Link
+  - hash:
+      serializedVersion: 2
+      Hash: af0537dabf7072720b1497b88b975216
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Helpers
+    className: TextListItem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 81cc1fec61e0f8961fda32dfd92a21ea
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: TestHubSample
+  - hash:
+      serializedVersion: 2
+      Hash: 81cc1fec61e0f8961fda32dfd92a21ea
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: HubWithAuthorizationSample
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 1cae24add76340916448febdd1490b46
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.SocketIO3
+    className: ChatSample
+  - hash:
+      serializedVersion: 2
+      Hash: f0786811516f7de8befd7a3e181e567a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 189d9e5599f63266b3d62cfbc0d1059d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 49645a5a5d234043ca004a153956383b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Game
+    className: BoardManager
+  - hash:
+      serializedVersion: 2
+      Hash: 63273c4c1da31e27bddcbebc46cd7599
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: HubWithPreAuthorizationSample
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 81cc1fec61e0f8961fda32dfd92a21ea
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: AsyncTestHubSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PopupsScript
+  - hash:
+      serializedVersion: 2
+      Hash: d4b1b9808b2245ff47c94531f92d5441
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Game
+    className: PocketInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 62e040979f1bcc5cfdb183bf34b809bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Game
+    className: BallCollisionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 114cc35c9ff085c9b7397a66f0279a88
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Helpers.SelectorUI
+    className: SampleSelectorUI
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 288016c6c0e7a3459c33fb377c00e77e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Game
+    className: CueBallManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f7c968bf262b426570b5e75f5581dbb8
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.HTTP
+    className: TextureDownloadSample
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP
+    className: HTTPUpdateDelegator
+  - hash:
+      serializedVersion: 2
+      Hash: eebf53499f1683d2ea8dd72be1604f3d
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: UploadHubSample
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: af0537dabf7072720b1497b88b975216
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Helpers.SelectorUI
+    className: ExampleListItem
+  - hash:
+      serializedVersion: 2
+      Hash: 1ba40a3fa778c1bc8b746459874610eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CueStick
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: e2820e77b5962f7c69535a85ab8df7e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: SpecialEventScreen
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2f834737b86e4c05ee69b9b415181453
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: ShopScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 944f62836a2808cb3483e1f84fa106ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: FreeRewardsScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 11ffe875dfebfb4397d8f04122bd1847
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Hud
+    className: CueSpinSpot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Data
+    className: GameData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3a3cfb8054e66748b8a1412b07ad2bd7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: LoginScreen
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 48778aded87ee1d6e4b76ae87d42a613
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples
+    className: SampleRoot
+  - hash:
+      serializedVersion: 2
+      Hash: becb0697f17ad5f1ced2a2f29b833060
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: PlayWithFriendsScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: fb47944151ae59949814a6553174b488
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.Websockets
+    className: WebSocketSample
+  - hash:
+      serializedVersion: 2
+      Hash: 11ffe875dfebfb4397d8f04122bd1847
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.Hud
+    className: CanvasInputPositionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c8c23101904dd7eac1bd5f4d9c67c74f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: CueBall
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e2820e77b5962f7c69535a85ab8df7e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.API
+    className: APIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8e19db8c08e0eba59ddff85f5d2cfd81
+    assemblyName: BestHTTP.dll
+    namespaceName: BestHTTP.Examples.HTTP
+    className: AssetBundleSample
+  - hash:
+      serializedVersion: 2
+      Hash: 198160c7b47867cd26bfa5646cb6421c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RevolutionGames.UI
+    className: PlayTournamentScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/Final/GameplayScene.unity
+  playerPath: F:/GitHub/8ballPool/PoolStrike.apk

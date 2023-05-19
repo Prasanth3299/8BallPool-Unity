@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: cccdd4dcc057a3444880a901501e29bb
+timeCreated: 1478901171
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 8ball
+    100002: //RootNode
+    100004: Blue Solid
+    100006: Blue Stripe
+    100008: Brown Solid
+    100010: Brown Stripe
+    100012: Green Solid
+    100014: Green Stripe
+    100016: Orange Solid
+    100018: Orange Stripe
+    100020: Purple Solid
+    100022: Purple Stripe
+    100024: Red Solid
+    100026: Red Stripe
+    100028: Sphere016
+    100030: Yellow Solid
+    100032: Yellow Stripe
+    400000: 8ball
+    400002: //RootNode
+    400004: Blue Solid
+    400006: Blue Stripe
+    400008: Brown Solid
+    400010: Brown Stripe
+    400012: Green Solid
+    400014: Green Stripe
+    400016: Orange Solid
+    400018: Orange Stripe
+    400020: Purple Solid
+    400022: Purple Stripe
+    400024: Red Solid
+    400026: Red Stripe
+    400028: Sphere016
+    400030: Yellow Solid
+    400032: Yellow Stripe
+    2300000: 8ball
+    2300002: Blue Solid
+    2300004: Blue Stripe
+    2300006: Brown Solid
+    2300008: Brown Stripe
+    2300010: Green Solid
+    2300012: Green Stripe
+    2300014: Orange Solid
+    2300016: Orange Stripe
+    2300018: Purple Solid
+    2300020: Purple Stripe
+    2300022: Red Solid
+    2300024: Red Stripe
+    2300026: Sphere016
+    2300028: Yellow Solid
+    2300030: Yellow Stripe
+    3300000: 8ball
+    3300002: Blue Solid
+    3300004: Blue Stripe
+    3300006: Brown Solid
+    3300008: Brown Stripe
+    3300010: Green Solid
+    3300012: Green Stripe
+    3300014: Orange Solid
+    3300016: Orange Stripe
+    3300018: Purple Solid
+    3300020: Purple Stripe
+    3300022: Red Solid
+    3300024: Red Stripe
+    3300026: Sphere016
+    3300028: Yellow Solid
+    3300030: Yellow Stripe
+    4300000: Blue Stripe
+    4300002: Red Stripe
+    4300004: Yellow Stripe
+    4300006: Purple Stripe
+    4300008: Orange Stripe
+    4300010: Green Stripe
+    4300012: Brown Stripe
+    4300014: Brown Solid
+    4300016: Green Solid
+    4300018: Orange Solid
+    4300020: Purple Solid
+    4300022: Red Solid
+    4300024: Blue Solid
+    4300026: Yellow Solid
+    4300028: 8ball
+    4300030: Sphere016
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
